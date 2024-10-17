@@ -51,6 +51,7 @@ if __name__ == '__main__':
         targets = pickle.load(f).tolist()
         
     word = WordEmbedding(50, 100)   
+    
     print(inputs[:128])
     inputs = tf.data.Dataset.from_tensor_slices(inputs).batch(128)
     for input in inputs:
