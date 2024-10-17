@@ -8,7 +8,7 @@ The model uses the `item_description` column as input to GPT’s Encoder. The in
 
 ### Model Performance
 
-The current Mean Squared Error (MSE) is around **900**, indicating there’s still room for improvement.
+The current Mean Squared Error (MSE) is around **600**, indicating there’s still room for improvement.
 
 ### How to Use
 
